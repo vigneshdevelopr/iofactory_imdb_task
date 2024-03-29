@@ -1,0 +1,35 @@
+.upnext_main {
+    /* border: solid yellow; */
+    border-radius: 15px;
+    height: 25rem;
+    color: white;
+    padding: 10px;
+    background-color: transparent;
+    font-family: "Epilogue", sans-serif;
+    display: block;
+    overflow-y: scroll;
+  }
+  
+  .upnext_main::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+  }
+  
+  .upnext_main::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Optional: customize thumb appearance */
+  }
+  
+  .upnext_title {
+    color: #E2B616;
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: x-large;
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    
+  }
+  .list {
+    flex-grow: 1; 
+    overflow-y: auto; 
+  }
+ 
+  
